@@ -1,12 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project titile</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <title>Project titile</title>
+  </head>
+  <body>
+    <section class="hero-section">
+      <div class="hero-content">
+        <h1 class="heading-primary">
+          <span class="heading-primary--main"><span> Hello.</span></span
+          ><span class="heading-primary-sub">My name is David Corazza.</span>
+        </h1>
+        <p class="hero-text">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit error
+          vitae reiciendis. Quae, debitis. Dolorem vitae voluptatum enim
+          mollitia soluta!
+        </p>
+        <a href="#" class="hero-cta">Book a phone call</a>
+      </div>
+    </section>
+    <main>
+      <section class="service-section">
+        <div class="wrapper">
+          <span class="sub-heading">Don't hesitate</span>
+          <h2 class="heading-secondary">
+            <!-- Some great quality people should know about you -->
+            Checkout serices I offer to my clients
+          </h2>
+          <div class="services">
+            <div class="service">
+              <svg>
+                <use xlink:href="sprite.svg#icon-tools"></use>
+              </svg>
+              <h3 class="heading-tertiary">Your quality</h3>
+              <p class="service-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa,
+                facere.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact-section">
+        <div class="wrapper">
+          <span class="sub-heading">Let's connect</span>
+          <h2 class="heading-secondary">Send a message</h2>
+          <div class="contact-left-col">
+            <h3 class="heading-tertiary">Getting in touch easly</h3>
+            <address>
+              123 Fifth Avenue, New York,<span>NY 10160, USA</span>
+            </address>
+            <a href="tel:+19106268525" class="contact-phone">+1910-626-8525</a>
+            <a href="mailto:info@davidcorazza.com" class="contact-mail"
+              >info@davidcorazza.com</a
+            >
+            <div class="social-icons">
+              <svg>
+                <use xlink:href="sprite.svg#icon-facebook"></use>
+              </svg>
+            </div>
+          </div>
+          <form>
+            <input type="text" placeholder="Your name" />
+            <input type="text" placeholder="Your Email" />
+            <textarea
+              cols="30"
+              rows="10"
+              placeholder="Write me about any project. I would love to work with you"
+            ></textarea>
+            <button class="btn">Send message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
