@@ -1,0 +1,19 @@
+@mixin screen-size($breakpoint) {
+  @if ($breakpoint==tablet) {
+    @media only screen and (max-width: 54.5em) {
+      @content;
+    }
+  }
+
+  @if ($breakpoint==phone) {
+    @media only screen and (max-width: 37.5em) {
+      @content;
+    }
+  }
+
+  @if ($breakpoint==small-phone) {
+    @media only screen and (max-width: 28.75em) {
+      @content;
+    }
+  }
+}
