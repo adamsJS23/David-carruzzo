@@ -9,6 +9,10 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+
+  @include screen-size(tablet) {
+    font-size: 50%;
+  }
 }
 
 img,
@@ -26,4 +30,10 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+input,
+textarea,
+button {
+  border: none;
 }
